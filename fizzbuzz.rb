@@ -7,7 +7,7 @@ def fizzbuzz(int)
      int % 5 == 0
 "Buzz"
       elsif
-         "Fizz" && "Buzz" is true then
+      (int % 3  == 0) && (int % 5 == 0)
 "FizzBuzz"
       else
         nil
